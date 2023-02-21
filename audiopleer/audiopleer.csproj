@@ -1,0 +1,32 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>net6.0-windows</TargetFramework>
+    <Nullable>enable</Nullable>
+    <UseWPF>true</UseWPF>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Remove="guitar-cat.gif" />
+    <None Remove="next-button.png" />
+    <None Remove="Pause-Button-Transparent-Images.png" />
+    <None Remove="Pause-Button-Transparent.png" />
+    <None Remove="play-button-circled.png" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="MaterialDesignThemes" Version="4.7.1" />
+    <PackageReference Include="WindowsAPICodePack-Shell" Version="1.1.1" />
+    <PackageReference Include="WpfAnimatedGif" Version="2.0.2" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Resource Include="guitar-cat.gif" />
+    <Resource Include="next-button.png" />
+    <Resource Include="Pause-Button-Transparent-Images.png" />
+    <Resource Include="Pause-Button-Transparent.png" />
+    <Resource Include="play-button-circled.png" />
+  </ItemGroup>
+
+</Project>
